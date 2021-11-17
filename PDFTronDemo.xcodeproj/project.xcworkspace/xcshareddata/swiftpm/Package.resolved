@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PDFTron",
+        "repositoryURL": "https://github.com/PDFTron/pdftron-apple-package",
+        "state": {
+          "branch": null,
+          "revision": "1741a34ce47ca9512af8dd9a288b2c47bb4e30c4",
+          "version": "9.1.178665"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

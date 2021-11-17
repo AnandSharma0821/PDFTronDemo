@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		965EE1CFA1EE2E7D3A6D5FA7 /* Pods_PDFTronDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD60D81E4766858D80967802 /* Pods_PDFTronDemo.framework */; };
+		A93B52D4273BBE4900F5A001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B52D3273BBE4900F5A001 /* AppDelegate.swift */; };
+		A93B52D8273BBE4900F5A001 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93B52D7273BBE4900F5A001 /* ViewController.swift */; };
+		A93B52DB273BBE4900F5A001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93B52D9273BBE4900F5A001 /* Main.storyboard */; };
+		A93B52DD273BBE4A00F5A001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93B52DC273BBE4A00F5A001 /* Assets.xcassets */; };
+		A93B52E0273BBE4A00F5A001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93B52DE273BBE4A00F5A001 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A2C65FF50E0DC41526084CE /* Pods-PDFTronDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFTronDemo.debug.xcconfig"; path = "Target Support Files/Pods-PDFTronDemo/Pods-PDFTronDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A93B52D0273BBE4900F5A001 /* PDFTronDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFTronDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93B52D3273BBE4900F5A001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A93B52D7273BBE4900F5A001 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A93B52DA273BBE4900F5A001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A93B52DC273BBE4A00F5A001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A93B52DF273BBE4A00F5A001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A93B52E1273BBE4A00F5A001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD60D81E4766858D80967802 /* Pods_PDFTronDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFTronDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8951A6FD12F8C2BE553F0C8 /* Pods-PDFTronDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFTronDemo.release.xcconfig"; path = "Target Support Files/Pods-PDFTronDemo/Pods-PDFTronDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A93B52CD273BBE4900F5A001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965EE1CFA1EE2E7D3A6D5FA7 /* Pods_PDFTronDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D1C16D05AFB7423CD329B16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A2C65FF50E0DC41526084CE /* Pods-PDFTronDemo.debug.xcconfig */,
+				F8951A6FD12F8C2BE553F0C8 /* Pods-PDFTronDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A93B52C7273BBE4900F5A001 = {
+			isa = PBXGroup;
+			children = (
+				A93B52D2273BBE4900F5A001 /* PDFTronDemo */,
+				A93B52D1273BBE4900F5A001 /* Products */,
+				6D1C16D05AFB7423CD329B16 /* Pods */,
+				FFEFF5045636F450ABD7A576 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A93B52D1273BBE4900F5A001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A93B52D0273BBE4900F5A001 /* PDFTronDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A93B52D2273BBE4900F5A001 /* PDFTronDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A93B52D3273BBE4900F5A001 /* AppDelegate.swift */,
+				A93B52D7273BBE4900F5A001 /* ViewController.swift */,
+				A93B52D9273BBE4900F5A001 /* Main.storyboard */,
+				A93B52DC273BBE4A00F5A001 /* Assets.xcassets */,
+				A93B52DE273BBE4A00F5A001 /* LaunchScreen.storyboard */,
+				A93B52E1273BBE4A00F5A001 /* Info.plist */,
+			);
+			path = PDFTronDemo;
+			sourceTree = "<group>";
+		};
+		FFEFF5045636F450ABD7A576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD60D81E4766858D80967802 /* Pods_PDFTronDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A93B52CF273BBE4900F5A001 /* PDFTronDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93B52E4273BBE4A00F5A001 /* Build configuration list for PBXNativeTarget "PDFTronDemo" */;
+			buildPhases = (
+				E78112B41A73A364415065CA /* [CP] Check Pods Manifest.lock */,
+				A93B52CC273BBE4900F5A001 /* Sources */,
+				A93B52CD273BBE4900F5A001 /* Frameworks */,
+				A93B52CE273BBE4900F5A001 /* Resources */,
+				0B8295B31CDD2CEB7A811A31 /* [CP] Embed Pods Frameworks */,
+				176EACD0259336D718DC0812 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFTronDemo;
+			productName = PDFTronDemo;
+			productReference = A93B52D0273BBE4900F5A001 /* PDFTronDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A93B52C8273BBE4900F5A001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A93B52CF273BBE4900F5A001 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = A93B52CB273BBE4900F5A001 /* Build configuration list for PBXProject "PDFTronDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A93B52C7273BBE4900F5A001;
+			productRefGroup = A93B52D1273BBE4900F5A001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A93B52CF273BBE4900F5A001 /* PDFTronDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A93B52CE273BBE4900F5A001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93B52E0273BBE4A00F5A001 /* LaunchScreen.storyboard in Resources */,
+				A93B52DD273BBE4A00F5A001 /* Assets.xcassets in Resources */,
+				A93B52DB273BBE4900F5A001 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B8295B31CDD2CEB7A811A31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PDFTronDemo/Pods-PDFTronDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PDFTronDemo/Pods-PDFTronDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PDFTronDemo/Pods-PDFTronDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		176EACD0259336D718DC0812 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PDFTronDemo/Pods-PDFTronDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PDFTronDemo/Pods-PDFTronDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PDFTronDemo/Pods-PDFTronDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E78112B41A73A364415065CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDFTronDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A93B52CC273BBE4900F5A001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93B52D8273BBE4900F5A001 /* ViewController.swift in Sources */,
+				A93B52D4273BBE4900F5A001 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A93B52D9273BBE4900F5A001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93B52DA273BBE4900F5A001 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A93B52DE273BBE4A00F5A001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93B52DF273BBE4A00F5A001 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A93B52E2273BBE4A00F5A001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A93B52E3273BBE4A00F5A001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A93B52E5273BBE4A00F5A001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A2C65FF50E0DC41526084CE /* Pods-PDFTronDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WPGD9C8P7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PDFTronDemo/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This will allow us to detect if an Apple Pencil is paired, enabling palm rejection and the ability to scroll with one finger while annotating.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This will allow us detect if an Apple Pencil is paired, enabling palm rejection and the ability to scroll with one finger while annotating.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This will allow you to use the image from your camera.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This will allow you to add images to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This will allow you to create signatures and annotations from images in your photo library.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PDFTronDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A93B52E6273BBE4A00F5A001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8951A6FD12F8C2BE553F0C8 /* Pods-PDFTronDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WPGD9C8P7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PDFTronDemo/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This will allow us to detect if an Apple Pencil is paired, enabling palm rejection and the ability to scroll with one finger while annotating.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This will allow us detect if an Apple Pencil is paired, enabling palm rejection and the ability to scroll with one finger while annotating.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This will allow you to use the image from your camera.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This will allow you to add images to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This will allow you to create signatures and annotations from images in your photo library.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PDFTronDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A93B52CB273BBE4900F5A001 /* Build configuration list for PBXProject "PDFTronDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93B52E2273BBE4A00F5A001 /* Debug */,
+				A93B52E3273BBE4A00F5A001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93B52E4273BBE4A00F5A001 /* Build configuration list for PBXNativeTarget "PDFTronDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93B52E5273BBE4A00F5A001 /* Debug */,
+				A93B52E6273BBE4A00F5A001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A93B52C8273BBE4900F5A001 /* Project object */;
+}
